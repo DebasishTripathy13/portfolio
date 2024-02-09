@@ -1,5 +1,7 @@
-// For demonstration only - you would handle cart, product data, etc.
-const cartButton = document.querySelector('nav li:last-child'); 
-cartButton.addEventListener('click', () => {
-    alert('Cart functionality would be implemented here!');
-});
+<script>
+    document.querySelectorAll('.contact-list a').forEach(item => {
+        item.addEventListener('click', event => {
+            alert('You clicked on a contact link!');
+        });
+    });
+</script>

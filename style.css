@@ -1,24 +1,80 @@
-/* Basic Styling */
 body {
-    font-family: sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 1em 0;
-    text-align: center;
+.navbar {
+    background-color: #333;
 }
 
-nav ul {
+.navbar a {
+    color: #fff;
+}
+
+.navbar .navbar-brand {
+    color: #4CAF50;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 10px;
+}
+
+p, li {
+    color: #777;
+}
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+.contact-list {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
+.contact-list li {
+    margin-bottom: 10px;
 }
 
-/* Add more styles for product display, footer, etc. */
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-list a:hover {
+    color: #007BFF;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: black;
+}
+.footer {
+    background-color: #f2f2f2;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
